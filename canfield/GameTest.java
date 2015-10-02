@@ -17,14 +17,4 @@ public class GameTest {
         assertEquals(5, g.getScore());
     }
 
-    // Tests of undo might go here.
-    @Test
-    public void testUndo() {
-        Game g = new Game();
-        g.deal();
-        g.stockToWaste();
-        g.undo();
-        assertEquals(null, g.topWaste());
-    }
-
 }
